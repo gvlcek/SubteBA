@@ -1,0 +1,36 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "2B7CE1AC43EE36693B1352C97E925C1FA669F6C2" : 0,
+    "3D810D4419E33372B62CE1877F5D412B2F61A1C9" : 0,
+    "B57EBDC6E7927908A1AF6C46691B9ABCF7963918" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "81630CC6-4E76-42CD-99FB-79F7BE0AD386",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "2B7CE1AC43EE36693B1352C97E925C1FA669F6C2" : "SubteBA\/SubteBA%20WatchKit%20App\/",
+    "3D810D4419E33372B62CE1877F5D412B2F61A1C9" : "SubteBA\/SubteBA%20WatchKit%20Extension\/",
+    "B57EBDC6E7927908A1AF6C46691B9ABCF7963918" : "SubteBA\/SubteBA\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SubteBA",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SubteBA.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/gvlcek\/SubteBA-WatchKit-App.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2B7CE1AC43EE36693B1352C97E925C1FA669F6C2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/gvlcek\/SubteBA-WatchKit-Extension.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3D810D4419E33372B62CE1877F5D412B2F61A1C9"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/gvlcek\/SubteBA.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B57EBDC6E7927908A1AF6C46691B9ABCF7963918"
+    }
+  ]
+}
