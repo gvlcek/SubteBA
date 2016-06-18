@@ -34,7 +34,7 @@ class TableViewController: UITableViewController {
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("Identifier", forIndexPath: indexPath)
-        var e = estados[indexPath.row]
+        let e = estados[indexPath.row]
         cell.textLabel?.text = e.linea
         cell.detailTextLabel?.text = e.estado
         cell.imageView?.image = e.icon
