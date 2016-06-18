@@ -59,11 +59,8 @@ class ServicioSubte: NSObject {
                 estados.append(s)
                 
             }
-
             respuesta(estados)
-            
         }
-        
         
         task.resume()
     }
