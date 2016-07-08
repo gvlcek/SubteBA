@@ -37,6 +37,9 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="3uo-vG-eJq" kind="show" identifier="tableSegue" id="eKr-Rb-wbb"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -50,6 +53,47 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vhs-KX-fYK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1128" y="-1622"/>
+        </scene>
+        <!--Detalle Subte View Controller-->
+        <scene sceneID="3Za-eh-1dF">
+            <objects>
+                <viewController id="3uo-vG-eJq" customClass="DetalleSubteViewController" customModule="SubteBA" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0WL-3N-CN6"/>
+                        <viewControllerLayoutGuide type="bottom" id="6gd-3a-x9I"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tqX-w6-Vl7">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="veJ-iN-ZJi">
+                                <rect key="frame" x="20" y="318" width="280" height="49"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2UW-ap-lkM">
+                                <rect key="frame" x="106" y="242" width="109" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9FZ-Wu-Myi">
+                                <rect key="frame" x="80" y="74" width="160" height="160"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="leibelLabel" destination="veJ-iN-ZJi" id="JdR-tT-Q3a"/>
+                        <outlet property="lineaImageView" destination="9FZ-Wu-Myi" id="GWd-DX-GVu"/>
+                        <outlet property="lineaLabel" destination="2UW-ap-lkM" id="6n4-dU-ZEM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="q7j-5l-Hv7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-718" y="-1622"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="gxX-wb-LNW">
