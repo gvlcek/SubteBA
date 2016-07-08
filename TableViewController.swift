@@ -42,4 +42,16 @@ class TableViewController: UITableViewController {
         return cell
     }
     
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        guard let
+            detalle = segue.destinationViewController as? DetalleSubteViewController,
+            cell = sender as? UITableViewCell,
+            indexPath = tableView.indexPathForCell(cell)
+            else { return }
+        
+        let estado: EstadoSubte = estados[indexPath.row]
+        detalle.estadoSubte = estado
+            
+    }
+    
 }
