@@ -23,7 +23,7 @@
 		DD9E4FC41CED2E8000836B13 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9E4FC31CED2E8000836B13 /* InterfaceController.swift */; };
 		DD9E4FC61CED2E8000836B13 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9E4FC51CED2E8000836B13 /* ExtensionDelegate.swift */; };
 		DD9E4FC81CED2E8000836B13 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9E4FC71CED2E8000836B13 /* NotificationController.swift */; };
-		DDB38E981E62766100C9C081 /* DetalleSubte.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB38E971E62766100C9C081 /* DetalleSubte.swift */; };
+		DDB38E9A1E62790700C9C081 /* DetalleSubte.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB38E991E62790700C9C081 /* DetalleSubte.swift */; };
 		DDBB7AD81D0E091F00BD4DAE /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBB7AD71D0E091F00BD4DAE /* TableViewController.swift */; };
 		DDC1218C1CFB7243001F5EF3 /* detalle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC1218B1CFB7243001F5EF3 /* detalle.swift */; };
 /* End PBXBuildFile section */
@@ -90,7 +90,7 @@
 		DD9E4FC51CED2E8000836B13 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		DD9E4FC71CED2E8000836B13 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		DD9E4FCB1CED2E8000836B13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DDB38E971E62766100C9C081 /* DetalleSubte.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetalleSubte.swift; path = "../../../../Downloads/subteBA-master-2/DetalleSubte.swift"; sourceTree = "<group>"; };
+		DDB38E991E62790700C9C081 /* DetalleSubte.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetalleSubte.swift; sourceTree = SOURCE_ROOT; };
 		DDBB7AD71D0E091F00BD4DAE /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		DDC1218B1CFB7243001F5EF3 /* detalle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = detalle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -139,7 +139,7 @@
 				DD2714CE1D15EC6F007C5EA1 /* ServicioSubte.swift */,
 				DD9E4F9E1CED2E8000836B13 /* AppDelegate.swift */,
 				DD9E4FA21CED2E8000836B13 /* Main.storyboard */,
-				DDB38E971E62766100C9C081 /* DetalleSubte.swift */,
+				DDB38E991E62790700C9C081 /* DetalleSubte.swift */,
 				DDBB7AD71D0E091F00BD4DAE /* TableViewController.swift */,
 				DD9E4FA51CED2E8000836B13 /* Assets.xcassets */,
 				DD9E4FA71CED2E8000836B13 /* LaunchScreen.storyboard */,
@@ -323,7 +323,7 @@
 				DD2714CF1D15EC6F007C5EA1 /* ServicioSubte.swift in Sources */,
 				DD9E4F9F1CED2E8000836B13 /* AppDelegate.swift in Sources */,
 				DDBB7AD81D0E091F00BD4DAE /* TableViewController.swift in Sources */,
-				DDB38E981E62766100C9C081 /* DetalleSubte.swift in Sources */,
+				DDB38E9A1E62790700C9C081 /* DetalleSubte.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
