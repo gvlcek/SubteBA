@@ -23,6 +23,7 @@
 		DD9E4FC41CED2E8000836B13 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9E4FC31CED2E8000836B13 /* InterfaceController.swift */; };
 		DD9E4FC61CED2E8000836B13 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9E4FC51CED2E8000836B13 /* ExtensionDelegate.swift */; };
 		DD9E4FC81CED2E8000836B13 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9E4FC71CED2E8000836B13 /* NotificationController.swift */; };
+		DDB38E981E62766100C9C081 /* DetalleSubte.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB38E971E62766100C9C081 /* DetalleSubte.swift */; };
 		DDBB7AD81D0E091F00BD4DAE /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBB7AD71D0E091F00BD4DAE /* TableViewController.swift */; };
 		DDC1218C1CFB7243001F5EF3 /* detalle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC1218B1CFB7243001F5EF3 /* detalle.swift */; };
 /* End PBXBuildFile section */
@@ -89,6 +90,7 @@
 		DD9E4FC51CED2E8000836B13 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		DD9E4FC71CED2E8000836B13 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		DD9E4FCB1CED2E8000836B13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDB38E971E62766100C9C081 /* DetalleSubte.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetalleSubte.swift; path = "../../../../Downloads/subteBA-master-2/DetalleSubte.swift"; sourceTree = "<group>"; };
 		DDBB7AD71D0E091F00BD4DAE /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		DDC1218B1CFB7243001F5EF3 /* detalle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = detalle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -137,6 +139,7 @@
 				DD2714CE1D15EC6F007C5EA1 /* ServicioSubte.swift */,
 				DD9E4F9E1CED2E8000836B13 /* AppDelegate.swift */,
 				DD9E4FA21CED2E8000836B13 /* Main.storyboard */,
+				DDB38E971E62766100C9C081 /* DetalleSubte.swift */,
 				DDBB7AD71D0E091F00BD4DAE /* TableViewController.swift */,
 				DD9E4FA51CED2E8000836B13 /* Assets.xcassets */,
 				DD9E4FA71CED2E8000836B13 /* LaunchScreen.storyboard */,
@@ -241,20 +244,23 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Vlcek Guadalupe";
 				TargetAttributes = {
 					DD9E4F9A1CED2E8000836B13 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 363T9DTZQA;
+						LastSwiftMigration = 0820;
 					};
 					DD9E4FAC1CED2E8000836B13 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 363T9DTZQA;
+						LastSwiftMigration = 0820;
 					};
 					DD9E4FBB1CED2E8000836B13 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 363T9DTZQA;
+						LastSwiftMigration = 0820;
 					};
 				};
 			};
@@ -317,6 +323,7 @@
 				DD2714CF1D15EC6F007C5EA1 /* ServicioSubte.swift in Sources */,
 				DD9E4F9F1CED2E8000836B13 /* AppDelegate.swift in Sources */,
 				DDBB7AD81D0E091F00BD4DAE /* TableViewController.swift in Sources */,
+				DDB38E981E62766100C9C081 /* DetalleSubte.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,8 +397,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -435,8 +444,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -455,6 +466,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -468,6 +480,7 @@
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.2;
 			};
@@ -482,6 +495,7 @@
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.2;
 			};
@@ -490,14 +504,15 @@
 		DD9E4FD31CED2E8000836B13 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = SubteBA_WatchKit_Extension;
 				INFOPLIST_FILE = "SubteBA WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.metrovias.SubteBA.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.2;
 			};
@@ -506,14 +521,15 @@
 		DD9E4FD41CED2E8000836B13 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = SubteBA_WatchKit_Extension;
 				INFOPLIST_FILE = "SubteBA WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.metrovias.SubteBA.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.2;
 			};
@@ -527,6 +543,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.metrovias.SubteBA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -538,6 +555,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.metrovias.SubteBA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
